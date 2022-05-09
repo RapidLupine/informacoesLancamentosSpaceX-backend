@@ -1,5 +1,6 @@
 import { ServiceAccount } from 'firebase-admin';
-import admin = require('firebase-admin');
+import * as admin from 'firebase-admin';
+
 const serviceAccount = {
   type: 'service_account',
   project_id: 'informacoeslancamentosspacex',
